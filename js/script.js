@@ -13,31 +13,9 @@ return 0;
 
 }
 console.log(getTriangleArea(10, 6));
-
-
-function getTriangle1Area(a, h) {
-    if (a > 0 && h > 0) {
-    console.log('Parametry mają wartości większe niż 0');
-    return a * h / 2
-} else if (a <= 0 && h <= 0) {
-    console.log('Nieprawidłowe dane');
-}
-return 0;
-
-}
 console.log(getTriangleArea(11, 8));
-
-function getTriangle1Area(a, h) {
-    if (a > 0 && h > 0) {
-    console.log('Parametry mają wartości większe niż 0');
-    return a * h / 2
-} else if (a <= 0 && h <= 0) {
-    console.log('Nieprawidłowe dane');
-}
-return 0;
-
-}
 console.log(getTriangleArea(5, 12));
+
 
 
 
